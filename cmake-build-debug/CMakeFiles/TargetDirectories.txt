@@ -1,0 +1,4 @@
+/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles/9-2.dir
+/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles/9-1.dir

@@ -1,0 +1,4 @@
+/usr/bin/cmake3 -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /study+/c++/C++BeiYou/Introduction_To_C++_Exercise
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug

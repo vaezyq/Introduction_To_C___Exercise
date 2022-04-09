@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_9_Objects_and_Classes/9-1.cpp
+iostream
+-
+Rectangle.h
+/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_9_Objects_and_Classes/Rectangle.h
+iomanip
+-
+
+/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_9_Objects_and_Classes/Rectangle.h
+

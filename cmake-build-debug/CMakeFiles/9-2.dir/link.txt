@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/9-2.dir/Chapter_9_Objects_and_Classes/9-2.cpp.o CMakeFiles/9-2.dir/Chapter_9_Objects_and_Classes/Fan.cpp.o  -o 9-2 
