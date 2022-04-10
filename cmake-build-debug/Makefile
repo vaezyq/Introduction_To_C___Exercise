@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake3 --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake3 --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,144 +131,324 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 9-2
+# Target rules for targets named 10-8
 
 # Build rule for target.
-9-2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 9-2
-.PHONY : 9-2
+10-8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-8
+.PHONY : 10-8
 
 # fast build rule for target.
-9-2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-2.dir/build.make CMakeFiles/9-2.dir/build
-.PHONY : 9-2/fast
+10-8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-8.dir/build.make CMakeFiles/10-8.dir/build
+.PHONY : 10-8/fast
 
 #=============================================================================
-# Target rules for targets named 9-1
+# Target rules for targets named 10-6
 
 # Build rule for target.
-9-1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 9-1
-.PHONY : 9-1
+10-6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-6
+.PHONY : 10-6
 
 # fast build rule for target.
-9-1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/build
-.PHONY : 9-1/fast
+10-6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-6.dir/build.make CMakeFiles/10-6.dir/build
+.PHONY : 10-6/fast
 
-Chapter_9_Objects_and_Classes/9-1.o: Chapter_9_Objects_and_Classes/9-1.cpp.o
+#=============================================================================
+# Target rules for targets named 10-5
 
-.PHONY : Chapter_9_Objects_and_Classes/9-1.o
+# Build rule for target.
+10-5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-5
+.PHONY : 10-5
 
-# target to build an object file
-Chapter_9_Objects_and_Classes/9-1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/9-1.cpp.o
-.PHONY : Chapter_9_Objects_and_Classes/9-1.cpp.o
+# fast build rule for target.
+10-5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-5.dir/build.make CMakeFiles/10-5.dir/build
+.PHONY : 10-5/fast
 
-Chapter_9_Objects_and_Classes/9-1.i: Chapter_9_Objects_and_Classes/9-1.cpp.i
+#=============================================================================
+# Target rules for targets named 10-4
 
-.PHONY : Chapter_9_Objects_and_Classes/9-1.i
+# Build rule for target.
+10-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-4
+.PHONY : 10-4
 
-# target to preprocess a source file
-Chapter_9_Objects_and_Classes/9-1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/9-1.cpp.i
-.PHONY : Chapter_9_Objects_and_Classes/9-1.cpp.i
+# fast build rule for target.
+10-4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-4.dir/build.make CMakeFiles/10-4.dir/build
+.PHONY : 10-4/fast
 
-Chapter_9_Objects_and_Classes/9-1.s: Chapter_9_Objects_and_Classes/9-1.cpp.s
+#=============================================================================
+# Target rules for targets named 10-7
 
-.PHONY : Chapter_9_Objects_and_Classes/9-1.s
+# Build rule for target.
+10-7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-7
+.PHONY : 10-7
 
-# target to generate assembly for a file
-Chapter_9_Objects_and_Classes/9-1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/9-1.cpp.s
-.PHONY : Chapter_9_Objects_and_Classes/9-1.cpp.s
+# fast build rule for target.
+10-7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-7.dir/build.make CMakeFiles/10-7.dir/build
+.PHONY : 10-7/fast
 
-Chapter_9_Objects_and_Classes/9-2.o: Chapter_9_Objects_and_Classes/9-2.cpp.o
+#=============================================================================
+# Target rules for targets named 10-3
 
-.PHONY : Chapter_9_Objects_and_Classes/9-2.o
+# Build rule for target.
+10-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-3
+.PHONY : 10-3
 
-# target to build an object file
-Chapter_9_Objects_and_Classes/9-2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-2.dir/build.make CMakeFiles/9-2.dir/Chapter_9_Objects_and_Classes/9-2.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/9-2.cpp.o
-.PHONY : Chapter_9_Objects_and_Classes/9-2.cpp.o
+# fast build rule for target.
+10-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-3.dir/build.make CMakeFiles/10-3.dir/build
+.PHONY : 10-3/fast
 
-Chapter_9_Objects_and_Classes/9-2.i: Chapter_9_Objects_and_Classes/9-2.cpp.i
+#=============================================================================
+# Target rules for targets named 10-2
 
-.PHONY : Chapter_9_Objects_and_Classes/9-2.i
+# Build rule for target.
+10-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-2
+.PHONY : 10-2
 
-# target to preprocess a source file
-Chapter_9_Objects_and_Classes/9-2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-2.dir/build.make CMakeFiles/9-2.dir/Chapter_9_Objects_and_Classes/9-2.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/9-2.cpp.i
-.PHONY : Chapter_9_Objects_and_Classes/9-2.cpp.i
+# fast build rule for target.
+10-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-2.dir/build.make CMakeFiles/10-2.dir/build
+.PHONY : 10-2/fast
 
-Chapter_9_Objects_and_Classes/9-2.s: Chapter_9_Objects_and_Classes/9-2.cpp.s
+#=============================================================================
+# Target rules for targets named 10-1
 
-.PHONY : Chapter_9_Objects_and_Classes/9-2.s
+# Build rule for target.
+10-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-1
+.PHONY : 10-1
 
-# target to generate assembly for a file
-Chapter_9_Objects_and_Classes/9-2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-2.dir/build.make CMakeFiles/9-2.dir/Chapter_9_Objects_and_Classes/9-2.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/9-2.cpp.s
-.PHONY : Chapter_9_Objects_and_Classes/9-2.cpp.s
+# fast build rule for target.
+10-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-1.dir/build.make CMakeFiles/10-1.dir/build
+.PHONY : 10-1/fast
 
-Chapter_9_Objects_and_Classes/Fan.o: Chapter_9_Objects_and_Classes/Fan.cpp.o
+Chapter_10_Object_Thinking/10-1.o: Chapter_10_Object_Thinking/10-1.cpp.o
 
-.PHONY : Chapter_9_Objects_and_Classes/Fan.o
-
-# target to build an object file
-Chapter_9_Objects_and_Classes/Fan.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-2.dir/build.make CMakeFiles/9-2.dir/Chapter_9_Objects_and_Classes/Fan.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/Fan.cpp.o
-.PHONY : Chapter_9_Objects_and_Classes/Fan.cpp.o
-
-Chapter_9_Objects_and_Classes/Fan.i: Chapter_9_Objects_and_Classes/Fan.cpp.i
-
-.PHONY : Chapter_9_Objects_and_Classes/Fan.i
-
-# target to preprocess a source file
-Chapter_9_Objects_and_Classes/Fan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-2.dir/build.make CMakeFiles/9-2.dir/Chapter_9_Objects_and_Classes/Fan.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/Fan.cpp.i
-.PHONY : Chapter_9_Objects_and_Classes/Fan.cpp.i
-
-Chapter_9_Objects_and_Classes/Fan.s: Chapter_9_Objects_and_Classes/Fan.cpp.s
-
-.PHONY : Chapter_9_Objects_and_Classes/Fan.s
-
-# target to generate assembly for a file
-Chapter_9_Objects_and_Classes/Fan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-2.dir/build.make CMakeFiles/9-2.dir/Chapter_9_Objects_and_Classes/Fan.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/Fan.cpp.s
-.PHONY : Chapter_9_Objects_and_Classes/Fan.cpp.s
-
-Chapter_9_Objects_and_Classes/Rectangle.o: Chapter_9_Objects_and_Classes/Rectangle.cpp.o
-
-.PHONY : Chapter_9_Objects_and_Classes/Rectangle.o
+.PHONY : Chapter_10_Object_Thinking/10-1.o
 
 # target to build an object file
-Chapter_9_Objects_and_Classes/Rectangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/Rectangle.cpp.o
-.PHONY : Chapter_9_Objects_and_Classes/Rectangle.cpp.o
+Chapter_10_Object_Thinking/10-1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-1.dir/build.make CMakeFiles/10-1.dir/Chapter_10_Object_Thinking/10-1.cpp.o
+.PHONY : Chapter_10_Object_Thinking/10-1.cpp.o
 
-Chapter_9_Objects_and_Classes/Rectangle.i: Chapter_9_Objects_and_Classes/Rectangle.cpp.i
+Chapter_10_Object_Thinking/10-1.i: Chapter_10_Object_Thinking/10-1.cpp.i
 
-.PHONY : Chapter_9_Objects_and_Classes/Rectangle.i
+.PHONY : Chapter_10_Object_Thinking/10-1.i
 
 # target to preprocess a source file
-Chapter_9_Objects_and_Classes/Rectangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/Rectangle.cpp.i
-.PHONY : Chapter_9_Objects_and_Classes/Rectangle.cpp.i
+Chapter_10_Object_Thinking/10-1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-1.dir/build.make CMakeFiles/10-1.dir/Chapter_10_Object_Thinking/10-1.cpp.i
+.PHONY : Chapter_10_Object_Thinking/10-1.cpp.i
 
-Chapter_9_Objects_and_Classes/Rectangle.s: Chapter_9_Objects_and_Classes/Rectangle.cpp.s
+Chapter_10_Object_Thinking/10-1.s: Chapter_10_Object_Thinking/10-1.cpp.s
 
-.PHONY : Chapter_9_Objects_and_Classes/Rectangle.s
+.PHONY : Chapter_10_Object_Thinking/10-1.s
 
 # target to generate assembly for a file
-Chapter_9_Objects_and_Classes/Rectangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9-1.dir/build.make CMakeFiles/9-1.dir/Chapter_9_Objects_and_Classes/Rectangle.cpp.s
-.PHONY : Chapter_9_Objects_and_Classes/Rectangle.cpp.s
+Chapter_10_Object_Thinking/10-1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-1.dir/build.make CMakeFiles/10-1.dir/Chapter_10_Object_Thinking/10-1.cpp.s
+.PHONY : Chapter_10_Object_Thinking/10-1.cpp.s
+
+Chapter_10_Object_Thinking/10-2.o: Chapter_10_Object_Thinking/10-2.cpp.o
+
+.PHONY : Chapter_10_Object_Thinking/10-2.o
+
+# target to build an object file
+Chapter_10_Object_Thinking/10-2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-2.dir/build.make CMakeFiles/10-2.dir/Chapter_10_Object_Thinking/10-2.cpp.o
+.PHONY : Chapter_10_Object_Thinking/10-2.cpp.o
+
+Chapter_10_Object_Thinking/10-2.i: Chapter_10_Object_Thinking/10-2.cpp.i
+
+.PHONY : Chapter_10_Object_Thinking/10-2.i
+
+# target to preprocess a source file
+Chapter_10_Object_Thinking/10-2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-2.dir/build.make CMakeFiles/10-2.dir/Chapter_10_Object_Thinking/10-2.cpp.i
+.PHONY : Chapter_10_Object_Thinking/10-2.cpp.i
+
+Chapter_10_Object_Thinking/10-2.s: Chapter_10_Object_Thinking/10-2.cpp.s
+
+.PHONY : Chapter_10_Object_Thinking/10-2.s
+
+# target to generate assembly for a file
+Chapter_10_Object_Thinking/10-2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-2.dir/build.make CMakeFiles/10-2.dir/Chapter_10_Object_Thinking/10-2.cpp.s
+.PHONY : Chapter_10_Object_Thinking/10-2.cpp.s
+
+Chapter_10_Object_Thinking/10-3.o: Chapter_10_Object_Thinking/10-3.cpp.o
+
+.PHONY : Chapter_10_Object_Thinking/10-3.o
+
+# target to build an object file
+Chapter_10_Object_Thinking/10-3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-3.dir/build.make CMakeFiles/10-3.dir/Chapter_10_Object_Thinking/10-3.cpp.o
+.PHONY : Chapter_10_Object_Thinking/10-3.cpp.o
+
+Chapter_10_Object_Thinking/10-3.i: Chapter_10_Object_Thinking/10-3.cpp.i
+
+.PHONY : Chapter_10_Object_Thinking/10-3.i
+
+# target to preprocess a source file
+Chapter_10_Object_Thinking/10-3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-3.dir/build.make CMakeFiles/10-3.dir/Chapter_10_Object_Thinking/10-3.cpp.i
+.PHONY : Chapter_10_Object_Thinking/10-3.cpp.i
+
+Chapter_10_Object_Thinking/10-3.s: Chapter_10_Object_Thinking/10-3.cpp.s
+
+.PHONY : Chapter_10_Object_Thinking/10-3.s
+
+# target to generate assembly for a file
+Chapter_10_Object_Thinking/10-3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-3.dir/build.make CMakeFiles/10-3.dir/Chapter_10_Object_Thinking/10-3.cpp.s
+.PHONY : Chapter_10_Object_Thinking/10-3.cpp.s
+
+Chapter_10_Object_Thinking/10-4.o: Chapter_10_Object_Thinking/10-4.cpp.o
+
+.PHONY : Chapter_10_Object_Thinking/10-4.o
+
+# target to build an object file
+Chapter_10_Object_Thinking/10-4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-4.dir/build.make CMakeFiles/10-4.dir/Chapter_10_Object_Thinking/10-4.cpp.o
+.PHONY : Chapter_10_Object_Thinking/10-4.cpp.o
+
+Chapter_10_Object_Thinking/10-4.i: Chapter_10_Object_Thinking/10-4.cpp.i
+
+.PHONY : Chapter_10_Object_Thinking/10-4.i
+
+# target to preprocess a source file
+Chapter_10_Object_Thinking/10-4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-4.dir/build.make CMakeFiles/10-4.dir/Chapter_10_Object_Thinking/10-4.cpp.i
+.PHONY : Chapter_10_Object_Thinking/10-4.cpp.i
+
+Chapter_10_Object_Thinking/10-4.s: Chapter_10_Object_Thinking/10-4.cpp.s
+
+.PHONY : Chapter_10_Object_Thinking/10-4.s
+
+# target to generate assembly for a file
+Chapter_10_Object_Thinking/10-4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-4.dir/build.make CMakeFiles/10-4.dir/Chapter_10_Object_Thinking/10-4.cpp.s
+.PHONY : Chapter_10_Object_Thinking/10-4.cpp.s
+
+Chapter_10_Object_Thinking/10-5.o: Chapter_10_Object_Thinking/10-5.cpp.o
+
+.PHONY : Chapter_10_Object_Thinking/10-5.o
+
+# target to build an object file
+Chapter_10_Object_Thinking/10-5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-5.dir/build.make CMakeFiles/10-5.dir/Chapter_10_Object_Thinking/10-5.cpp.o
+.PHONY : Chapter_10_Object_Thinking/10-5.cpp.o
+
+Chapter_10_Object_Thinking/10-5.i: Chapter_10_Object_Thinking/10-5.cpp.i
+
+.PHONY : Chapter_10_Object_Thinking/10-5.i
+
+# target to preprocess a source file
+Chapter_10_Object_Thinking/10-5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-5.dir/build.make CMakeFiles/10-5.dir/Chapter_10_Object_Thinking/10-5.cpp.i
+.PHONY : Chapter_10_Object_Thinking/10-5.cpp.i
+
+Chapter_10_Object_Thinking/10-5.s: Chapter_10_Object_Thinking/10-5.cpp.s
+
+.PHONY : Chapter_10_Object_Thinking/10-5.s
+
+# target to generate assembly for a file
+Chapter_10_Object_Thinking/10-5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-5.dir/build.make CMakeFiles/10-5.dir/Chapter_10_Object_Thinking/10-5.cpp.s
+.PHONY : Chapter_10_Object_Thinking/10-5.cpp.s
+
+Chapter_10_Object_Thinking/10-6.o: Chapter_10_Object_Thinking/10-6.cpp.o
+
+.PHONY : Chapter_10_Object_Thinking/10-6.o
+
+# target to build an object file
+Chapter_10_Object_Thinking/10-6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-6.dir/build.make CMakeFiles/10-6.dir/Chapter_10_Object_Thinking/10-6.cpp.o
+.PHONY : Chapter_10_Object_Thinking/10-6.cpp.o
+
+Chapter_10_Object_Thinking/10-6.i: Chapter_10_Object_Thinking/10-6.cpp.i
+
+.PHONY : Chapter_10_Object_Thinking/10-6.i
+
+# target to preprocess a source file
+Chapter_10_Object_Thinking/10-6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-6.dir/build.make CMakeFiles/10-6.dir/Chapter_10_Object_Thinking/10-6.cpp.i
+.PHONY : Chapter_10_Object_Thinking/10-6.cpp.i
+
+Chapter_10_Object_Thinking/10-6.s: Chapter_10_Object_Thinking/10-6.cpp.s
+
+.PHONY : Chapter_10_Object_Thinking/10-6.s
+
+# target to generate assembly for a file
+Chapter_10_Object_Thinking/10-6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-6.dir/build.make CMakeFiles/10-6.dir/Chapter_10_Object_Thinking/10-6.cpp.s
+.PHONY : Chapter_10_Object_Thinking/10-6.cpp.s
+
+Chapter_10_Object_Thinking/10-7.o: Chapter_10_Object_Thinking/10-7.cpp.o
+
+.PHONY : Chapter_10_Object_Thinking/10-7.o
+
+# target to build an object file
+Chapter_10_Object_Thinking/10-7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-7.dir/build.make CMakeFiles/10-7.dir/Chapter_10_Object_Thinking/10-7.cpp.o
+.PHONY : Chapter_10_Object_Thinking/10-7.cpp.o
+
+Chapter_10_Object_Thinking/10-7.i: Chapter_10_Object_Thinking/10-7.cpp.i
+
+.PHONY : Chapter_10_Object_Thinking/10-7.i
+
+# target to preprocess a source file
+Chapter_10_Object_Thinking/10-7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-7.dir/build.make CMakeFiles/10-7.dir/Chapter_10_Object_Thinking/10-7.cpp.i
+.PHONY : Chapter_10_Object_Thinking/10-7.cpp.i
+
+Chapter_10_Object_Thinking/10-7.s: Chapter_10_Object_Thinking/10-7.cpp.s
+
+.PHONY : Chapter_10_Object_Thinking/10-7.s
+
+# target to generate assembly for a file
+Chapter_10_Object_Thinking/10-7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-7.dir/build.make CMakeFiles/10-7.dir/Chapter_10_Object_Thinking/10-7.cpp.s
+.PHONY : Chapter_10_Object_Thinking/10-7.cpp.s
+
+Chapter_10_Object_Thinking/10-8.o: Chapter_10_Object_Thinking/10-8.cpp.o
+
+.PHONY : Chapter_10_Object_Thinking/10-8.o
+
+# target to build an object file
+Chapter_10_Object_Thinking/10-8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-8.dir/build.make CMakeFiles/10-8.dir/Chapter_10_Object_Thinking/10-8.cpp.o
+.PHONY : Chapter_10_Object_Thinking/10-8.cpp.o
+
+Chapter_10_Object_Thinking/10-8.i: Chapter_10_Object_Thinking/10-8.cpp.i
+
+.PHONY : Chapter_10_Object_Thinking/10-8.i
+
+# target to preprocess a source file
+Chapter_10_Object_Thinking/10-8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-8.dir/build.make CMakeFiles/10-8.dir/Chapter_10_Object_Thinking/10-8.cpp.i
+.PHONY : Chapter_10_Object_Thinking/10-8.cpp.i
+
+Chapter_10_Object_Thinking/10-8.s: Chapter_10_Object_Thinking/10-8.cpp.s
+
+.PHONY : Chapter_10_Object_Thinking/10-8.s
+
+# target to generate assembly for a file
+Chapter_10_Object_Thinking/10-8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-8.dir/build.make CMakeFiles/10-8.dir/Chapter_10_Object_Thinking/10-8.cpp.s
+.PHONY : Chapter_10_Object_Thinking/10-8.cpp.s
 
 # Help Target
 help:
@@ -278,20 +458,38 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 9-1"
-	@echo "... 9-2"
-	@echo "... Chapter_9_Objects_and_Classes/9-1.o"
-	@echo "... Chapter_9_Objects_and_Classes/9-1.i"
-	@echo "... Chapter_9_Objects_and_Classes/9-1.s"
-	@echo "... Chapter_9_Objects_and_Classes/9-2.o"
-	@echo "... Chapter_9_Objects_and_Classes/9-2.i"
-	@echo "... Chapter_9_Objects_and_Classes/9-2.s"
-	@echo "... Chapter_9_Objects_and_Classes/Fan.o"
-	@echo "... Chapter_9_Objects_and_Classes/Fan.i"
-	@echo "... Chapter_9_Objects_and_Classes/Fan.s"
-	@echo "... Chapter_9_Objects_and_Classes/Rectangle.o"
-	@echo "... Chapter_9_Objects_and_Classes/Rectangle.i"
-	@echo "... Chapter_9_Objects_and_Classes/Rectangle.s"
+	@echo "... 10-1"
+	@echo "... 10-2"
+	@echo "... 10-3"
+	@echo "... 10-4"
+	@echo "... 10-5"
+	@echo "... 10-6"
+	@echo "... 10-7"
+	@echo "... 10-8"
+	@echo "... Chapter_10_Object_Thinking/10-1.o"
+	@echo "... Chapter_10_Object_Thinking/10-1.i"
+	@echo "... Chapter_10_Object_Thinking/10-1.s"
+	@echo "... Chapter_10_Object_Thinking/10-2.o"
+	@echo "... Chapter_10_Object_Thinking/10-2.i"
+	@echo "... Chapter_10_Object_Thinking/10-2.s"
+	@echo "... Chapter_10_Object_Thinking/10-3.o"
+	@echo "... Chapter_10_Object_Thinking/10-3.i"
+	@echo "... Chapter_10_Object_Thinking/10-3.s"
+	@echo "... Chapter_10_Object_Thinking/10-4.o"
+	@echo "... Chapter_10_Object_Thinking/10-4.i"
+	@echo "... Chapter_10_Object_Thinking/10-4.s"
+	@echo "... Chapter_10_Object_Thinking/10-5.o"
+	@echo "... Chapter_10_Object_Thinking/10-5.i"
+	@echo "... Chapter_10_Object_Thinking/10-5.s"
+	@echo "... Chapter_10_Object_Thinking/10-6.o"
+	@echo "... Chapter_10_Object_Thinking/10-6.i"
+	@echo "... Chapter_10_Object_Thinking/10-6.s"
+	@echo "... Chapter_10_Object_Thinking/10-7.o"
+	@echo "... Chapter_10_Object_Thinking/10-7.i"
+	@echo "... Chapter_10_Object_Thinking/10-7.s"
+	@echo "... Chapter_10_Object_Thinking/10-8.o"
+	@echo "... Chapter_10_Object_Thinking/10-8.i"
+	@echo "... Chapter_10_Object_Thinking/10-8.s"
 .PHONY : help
 
 
