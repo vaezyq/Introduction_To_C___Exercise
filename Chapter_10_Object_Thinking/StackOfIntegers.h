@@ -12,7 +12,7 @@ class StackOfIntegers {
 private:
     std::vector<int> vec;
 
-    int size;
+    int size = 0;
 
 public:
     void push(int value);

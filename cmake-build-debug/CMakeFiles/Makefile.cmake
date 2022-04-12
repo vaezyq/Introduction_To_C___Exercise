@@ -48,18 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/10-15.dir/DependInfo.cmake"
-  "CMakeFiles/10-16.dir/DependInfo.cmake"
-  "CMakeFiles/StackOfIntegers.dir/DependInfo.cmake"
-  "CMakeFiles/10-17.dir/DependInfo.cmake"
-  "CMakeFiles/10-1.dir/DependInfo.cmake"
-  "CMakeFiles/Location.dir/DependInfo.cmake"
-  "CMakeFiles/10-3.dir/DependInfo.cmake"
-  "CMakeFiles/10-2.dir/DependInfo.cmake"
-  "CMakeFiles/10-4.dir/DependInfo.cmake"
-  "CMakeFiles/10-9.dir/DependInfo.cmake"
-  "CMakeFiles/10-7.dir/DependInfo.cmake"
-  "CMakeFiles/10-5.dir/DependInfo.cmake"
-  "CMakeFiles/10-6.dir/DependInfo.cmake"
-  "CMakeFiles/10-8.dir/DependInfo.cmake"
+  "CMakeFiles/10-10.dir/DependInfo.cmake"
+  "CMakeFiles/MyInteger.dir/DependInfo.cmake"
+  "CMakeFiles/Loan.dir/DependInfo.cmake"
+  "CMakeFiles/10-12.dir/DependInfo.cmake"
   )

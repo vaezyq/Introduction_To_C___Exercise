@@ -3,6 +3,9 @@
 //
 
 #include "StackOfIntegers.h"
+#include <iostream>
+
+using namespace std;
 
 
 int StackOfIntegers::pop() {

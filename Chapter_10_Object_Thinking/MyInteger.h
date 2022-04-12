@@ -1,10 +1,11 @@
-//
+///
 // Created by 22126 on 2022/4/10.
 //
 
 #ifndef INTRODUCTION_TO_C___EXERCISE_MYINTEGER_H
 #define INTRODUCTION_TO_C___EXERCISE_MYINTEGER_H
 
+#include <string>
 
 class MyInteger {
 private:
@@ -12,11 +13,14 @@ private:
 public:
     MyInteger(int value);
 
+
     int get() const;
 
     bool isEven() const;
 
     bool isOdd() const;
+
+
 
     bool isPrime() const;
 
@@ -33,6 +37,14 @@ public:
     static bool isOdd(const MyInteger &);
 
     static bool isPrime(const MyInteger &);
+
+
+    bool equals(int);
+
+    bool equals(const MyInteger &) const;
+
+
+    static int parseInt(const std::string &);
 
 };
 
