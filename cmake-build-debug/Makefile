@@ -131,224 +131,151 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 10-10
+# Target rules for targets named Circle2D
 
 # Build rule for target.
-10-10: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-10
-.PHONY : 10-10
+Circle2D: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Circle2D
+.PHONY : Circle2D
 
 # fast build rule for target.
-10-10/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/build
-.PHONY : 10-10/fast
+Circle2D/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Circle2D.dir/build.make CMakeFiles/Circle2D.dir/build
+.PHONY : Circle2D/fast
 
 #=============================================================================
-# Target rules for targets named MyInteger
+# Target rules for targets named 11-8
 
 # Build rule for target.
-MyInteger: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyInteger
-.PHONY : MyInteger
+11-8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11-8
+.PHONY : 11-8
 
 # fast build rule for target.
-MyInteger/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/build
-.PHONY : MyInteger/fast
+11-8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-8.dir/build.make CMakeFiles/11-8.dir/build
+.PHONY : 11-8/fast
 
 #=============================================================================
-# Target rules for targets named Loan
+# Target rules for targets named 11-7
 
 # Build rule for target.
-Loan: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Loan
-.PHONY : Loan
+11-7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11-7
+.PHONY : 11-7
 
 # fast build rule for target.
-Loan/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/build
-.PHONY : Loan/fast
+11-7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/build
+.PHONY : 11-7/fast
 
-#=============================================================================
-# Target rules for targets named 10-12
+Chapter_11_Pointers/11-7.o: Chapter_11_Pointers/11-7.cpp.o
 
-# Build rule for target.
-10-12: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10-12
-.PHONY : 10-12
-
-# fast build rule for target.
-10-12/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/build
-.PHONY : 10-12/fast
-
-Chapter_10_Object_Thinking/10-10.o: Chapter_10_Object_Thinking/10-10.cpp.o
-
-.PHONY : Chapter_10_Object_Thinking/10-10.o
+.PHONY : Chapter_11_Pointers/11-7.o
 
 # target to build an object file
-Chapter_10_Object_Thinking/10-10.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/Chapter_10_Object_Thinking/10-10.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/Chapter_10_Object_Thinking/10-10.cpp.o
-.PHONY : Chapter_10_Object_Thinking/10-10.cpp.o
+Chapter_11_Pointers/11-7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/Chapter_11_Pointers/11-7.cpp.o
+.PHONY : Chapter_11_Pointers/11-7.cpp.o
 
-Chapter_10_Object_Thinking/10-10.i: Chapter_10_Object_Thinking/10-10.cpp.i
+Chapter_11_Pointers/11-7.i: Chapter_11_Pointers/11-7.cpp.i
 
-.PHONY : Chapter_10_Object_Thinking/10-10.i
+.PHONY : Chapter_11_Pointers/11-7.i
 
 # target to preprocess a source file
-Chapter_10_Object_Thinking/10-10.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/Chapter_10_Object_Thinking/10-10.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/Chapter_10_Object_Thinking/10-10.cpp.i
-.PHONY : Chapter_10_Object_Thinking/10-10.cpp.i
+Chapter_11_Pointers/11-7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/Chapter_11_Pointers/11-7.cpp.i
+.PHONY : Chapter_11_Pointers/11-7.cpp.i
 
-Chapter_10_Object_Thinking/10-10.s: Chapter_10_Object_Thinking/10-10.cpp.s
+Chapter_11_Pointers/11-7.s: Chapter_11_Pointers/11-7.cpp.s
 
-.PHONY : Chapter_10_Object_Thinking/10-10.s
+.PHONY : Chapter_11_Pointers/11-7.s
 
 # target to generate assembly for a file
-Chapter_10_Object_Thinking/10-10.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/Chapter_10_Object_Thinking/10-10.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/Chapter_10_Object_Thinking/10-10.cpp.s
-.PHONY : Chapter_10_Object_Thinking/10-10.cpp.s
+Chapter_11_Pointers/11-7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/Chapter_11_Pointers/11-7.cpp.s
+.PHONY : Chapter_11_Pointers/11-7.cpp.s
 
-Chapter_10_Object_Thinking/10-11.o: Chapter_10_Object_Thinking/10-11.cpp.o
+Chapter_11_Pointers/11-8.o: Chapter_11_Pointers/11-8.cpp.o
 
-.PHONY : Chapter_10_Object_Thinking/10-11.o
+.PHONY : Chapter_11_Pointers/11-8.o
 
 # target to build an object file
-Chapter_10_Object_Thinking/10-11.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/Chapter_10_Object_Thinking/10-11.cpp.o
-.PHONY : Chapter_10_Object_Thinking/10-11.cpp.o
+Chapter_11_Pointers/11-8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-8.dir/build.make CMakeFiles/11-8.dir/Chapter_11_Pointers/11-8.cpp.o
+.PHONY : Chapter_11_Pointers/11-8.cpp.o
 
-Chapter_10_Object_Thinking/10-11.i: Chapter_10_Object_Thinking/10-11.cpp.i
+Chapter_11_Pointers/11-8.i: Chapter_11_Pointers/11-8.cpp.i
 
-.PHONY : Chapter_10_Object_Thinking/10-11.i
+.PHONY : Chapter_11_Pointers/11-8.i
 
 # target to preprocess a source file
-Chapter_10_Object_Thinking/10-11.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/Chapter_10_Object_Thinking/10-11.cpp.i
-.PHONY : Chapter_10_Object_Thinking/10-11.cpp.i
+Chapter_11_Pointers/11-8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-8.dir/build.make CMakeFiles/11-8.dir/Chapter_11_Pointers/11-8.cpp.i
+.PHONY : Chapter_11_Pointers/11-8.cpp.i
 
-Chapter_10_Object_Thinking/10-11.s: Chapter_10_Object_Thinking/10-11.cpp.s
+Chapter_11_Pointers/11-8.s: Chapter_11_Pointers/11-8.cpp.s
 
-.PHONY : Chapter_10_Object_Thinking/10-11.s
+.PHONY : Chapter_11_Pointers/11-8.s
 
 # target to generate assembly for a file
-Chapter_10_Object_Thinking/10-11.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/Chapter_10_Object_Thinking/10-11.cpp.s
-.PHONY : Chapter_10_Object_Thinking/10-11.cpp.s
+Chapter_11_Pointers/11-8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-8.dir/build.make CMakeFiles/11-8.dir/Chapter_11_Pointers/11-8.cpp.s
+.PHONY : Chapter_11_Pointers/11-8.cpp.s
 
-Chapter_10_Object_Thinking/10-12.o: Chapter_10_Object_Thinking/10-12.cpp.o
+Chapter_11_Pointers/Circle2D.o: Chapter_11_Pointers/Circle2D.cpp.o
 
-.PHONY : Chapter_10_Object_Thinking/10-12.o
+.PHONY : Chapter_11_Pointers/Circle2D.o
 
 # target to build an object file
-Chapter_10_Object_Thinking/10-12.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/Chapter_10_Object_Thinking/10-12.cpp.o
-.PHONY : Chapter_10_Object_Thinking/10-12.cpp.o
+Chapter_11_Pointers/Circle2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Circle2D.dir/build.make CMakeFiles/Circle2D.dir/Chapter_11_Pointers/Circle2D.cpp.o
+.PHONY : Chapter_11_Pointers/Circle2D.cpp.o
 
-Chapter_10_Object_Thinking/10-12.i: Chapter_10_Object_Thinking/10-12.cpp.i
+Chapter_11_Pointers/Circle2D.i: Chapter_11_Pointers/Circle2D.cpp.i
 
-.PHONY : Chapter_10_Object_Thinking/10-12.i
+.PHONY : Chapter_11_Pointers/Circle2D.i
 
 # target to preprocess a source file
-Chapter_10_Object_Thinking/10-12.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/Chapter_10_Object_Thinking/10-12.cpp.i
-.PHONY : Chapter_10_Object_Thinking/10-12.cpp.i
+Chapter_11_Pointers/Circle2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Circle2D.dir/build.make CMakeFiles/Circle2D.dir/Chapter_11_Pointers/Circle2D.cpp.i
+.PHONY : Chapter_11_Pointers/Circle2D.cpp.i
 
-Chapter_10_Object_Thinking/10-12.s: Chapter_10_Object_Thinking/10-12.cpp.s
+Chapter_11_Pointers/Circle2D.s: Chapter_11_Pointers/Circle2D.cpp.s
 
-.PHONY : Chapter_10_Object_Thinking/10-12.s
+.PHONY : Chapter_11_Pointers/Circle2D.s
 
 # target to generate assembly for a file
-Chapter_10_Object_Thinking/10-12.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/Chapter_10_Object_Thinking/10-12.cpp.s
-.PHONY : Chapter_10_Object_Thinking/10-12.cpp.s
+Chapter_11_Pointers/Circle2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Circle2D.dir/build.make CMakeFiles/Circle2D.dir/Chapter_11_Pointers/Circle2D.cpp.s
+.PHONY : Chapter_11_Pointers/Circle2D.cpp.s
 
-Chapter_10_Object_Thinking/Loan.o: Chapter_10_Object_Thinking/Loan.cpp.o
+Chapter_9_Objects_and_Classes/Account.o: Chapter_9_Objects_and_Classes/Account.cpp.o
 
-.PHONY : Chapter_10_Object_Thinking/Loan.o
+.PHONY : Chapter_9_Objects_and_Classes/Account.o
 
 # target to build an object file
-Chapter_10_Object_Thinking/Loan.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/Chapter_10_Object_Thinking/Loan.cpp.o
-.PHONY : Chapter_10_Object_Thinking/Loan.cpp.o
+Chapter_9_Objects_and_Classes/Account.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/Chapter_9_Objects_and_Classes/Account.cpp.o
+.PHONY : Chapter_9_Objects_and_Classes/Account.cpp.o
 
-Chapter_10_Object_Thinking/Loan.i: Chapter_10_Object_Thinking/Loan.cpp.i
+Chapter_9_Objects_and_Classes/Account.i: Chapter_9_Objects_and_Classes/Account.cpp.i
 
-.PHONY : Chapter_10_Object_Thinking/Loan.i
-
-# target to preprocess a source file
-Chapter_10_Object_Thinking/Loan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/Chapter_10_Object_Thinking/Loan.cpp.i
-.PHONY : Chapter_10_Object_Thinking/Loan.cpp.i
-
-Chapter_10_Object_Thinking/Loan.s: Chapter_10_Object_Thinking/Loan.cpp.s
-
-.PHONY : Chapter_10_Object_Thinking/Loan.s
-
-# target to generate assembly for a file
-Chapter_10_Object_Thinking/Loan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/Chapter_10_Object_Thinking/Loan.cpp.s
-.PHONY : Chapter_10_Object_Thinking/Loan.cpp.s
-
-Chapter_10_Object_Thinking/MyInteger.o: Chapter_10_Object_Thinking/MyInteger.cpp.o
-
-.PHONY : Chapter_10_Object_Thinking/MyInteger.o
-
-# target to build an object file
-Chapter_10_Object_Thinking/MyInteger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/Chapter_10_Object_Thinking/MyInteger.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/Chapter_10_Object_Thinking/MyInteger.cpp.o
-.PHONY : Chapter_10_Object_Thinking/MyInteger.cpp.o
-
-Chapter_10_Object_Thinking/MyInteger.i: Chapter_10_Object_Thinking/MyInteger.cpp.i
-
-.PHONY : Chapter_10_Object_Thinking/MyInteger.i
+.PHONY : Chapter_9_Objects_and_Classes/Account.i
 
 # target to preprocess a source file
-Chapter_10_Object_Thinking/MyInteger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/Chapter_10_Object_Thinking/MyInteger.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/Chapter_10_Object_Thinking/MyInteger.cpp.i
-.PHONY : Chapter_10_Object_Thinking/MyInteger.cpp.i
+Chapter_9_Objects_and_Classes/Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/Chapter_9_Objects_and_Classes/Account.cpp.i
+.PHONY : Chapter_9_Objects_and_Classes/Account.cpp.i
 
-Chapter_10_Object_Thinking/MyInteger.s: Chapter_10_Object_Thinking/MyInteger.cpp.s
+Chapter_9_Objects_and_Classes/Account.s: Chapter_9_Objects_and_Classes/Account.cpp.s
 
-.PHONY : Chapter_10_Object_Thinking/MyInteger.s
-
-# target to generate assembly for a file
-Chapter_10_Object_Thinking/MyInteger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/Chapter_10_Object_Thinking/MyInteger.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/Chapter_10_Object_Thinking/MyInteger.cpp.s
-.PHONY : Chapter_10_Object_Thinking/MyInteger.cpp.s
-
-Chapter_10_Object_Thinking/Stock.o: Chapter_10_Object_Thinking/Stock.cpp.o
-
-.PHONY : Chapter_10_Object_Thinking/Stock.o
-
-# target to build an object file
-Chapter_10_Object_Thinking/Stock.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/Chapter_10_Object_Thinking/Stock.cpp.o
-.PHONY : Chapter_10_Object_Thinking/Stock.cpp.o
-
-Chapter_10_Object_Thinking/Stock.i: Chapter_10_Object_Thinking/Stock.cpp.i
-
-.PHONY : Chapter_10_Object_Thinking/Stock.i
-
-# target to preprocess a source file
-Chapter_10_Object_Thinking/Stock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/Chapter_10_Object_Thinking/Stock.cpp.i
-.PHONY : Chapter_10_Object_Thinking/Stock.cpp.i
-
-Chapter_10_Object_Thinking/Stock.s: Chapter_10_Object_Thinking/Stock.cpp.s
-
-.PHONY : Chapter_10_Object_Thinking/Stock.s
+.PHONY : Chapter_9_Objects_and_Classes/Account.s
 
 # target to generate assembly for a file
-Chapter_10_Object_Thinking/Stock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/Chapter_10_Object_Thinking/Stock.cpp.s
-.PHONY : Chapter_10_Object_Thinking/Stock.cpp.s
+Chapter_9_Objects_and_Classes/Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/Chapter_9_Objects_and_Classes/Account.cpp.s
+.PHONY : Chapter_9_Objects_and_Classes/Account.cpp.s
 
 # Help Target
 help:
@@ -358,28 +285,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 10-10"
-	@echo "... 10-12"
-	@echo "... Loan"
-	@echo "... MyInteger"
-	@echo "... Chapter_10_Object_Thinking/10-10.o"
-	@echo "... Chapter_10_Object_Thinking/10-10.i"
-	@echo "... Chapter_10_Object_Thinking/10-10.s"
-	@echo "... Chapter_10_Object_Thinking/10-11.o"
-	@echo "... Chapter_10_Object_Thinking/10-11.i"
-	@echo "... Chapter_10_Object_Thinking/10-11.s"
-	@echo "... Chapter_10_Object_Thinking/10-12.o"
-	@echo "... Chapter_10_Object_Thinking/10-12.i"
-	@echo "... Chapter_10_Object_Thinking/10-12.s"
-	@echo "... Chapter_10_Object_Thinking/Loan.o"
-	@echo "... Chapter_10_Object_Thinking/Loan.i"
-	@echo "... Chapter_10_Object_Thinking/Loan.s"
-	@echo "... Chapter_10_Object_Thinking/MyInteger.o"
-	@echo "... Chapter_10_Object_Thinking/MyInteger.i"
-	@echo "... Chapter_10_Object_Thinking/MyInteger.s"
-	@echo "... Chapter_10_Object_Thinking/Stock.o"
-	@echo "... Chapter_10_Object_Thinking/Stock.i"
-	@echo "... Chapter_10_Object_Thinking/Stock.s"
+	@echo "... 11-7"
+	@echo "... 11-8"
+	@echo "... Circle2D"
+	@echo "... Chapter_11_Pointers/11-7.o"
+	@echo "... Chapter_11_Pointers/11-7.i"
+	@echo "... Chapter_11_Pointers/11-7.s"
+	@echo "... Chapter_11_Pointers/11-8.o"
+	@echo "... Chapter_11_Pointers/11-8.i"
+	@echo "... Chapter_11_Pointers/11-8.s"
+	@echo "... Chapter_11_Pointers/Circle2D.o"
+	@echo "... Chapter_11_Pointers/Circle2D.i"
+	@echo "... Chapter_11_Pointers/Circle2D.s"
+	@echo "... Chapter_9_Objects_and_Classes/Account.o"
+	@echo "... Chapter_9_Objects_and_Classes/Account.i"
+	@echo "... Chapter_9_Objects_and_Classes/Account.s"
 .PHONY : help
 
 

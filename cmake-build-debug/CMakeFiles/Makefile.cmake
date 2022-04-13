@@ -48,8 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/10-10.dir/DependInfo.cmake"
-  "CMakeFiles/MyInteger.dir/DependInfo.cmake"
-  "CMakeFiles/Loan.dir/DependInfo.cmake"
-  "CMakeFiles/10-12.dir/DependInfo.cmake"
+  "CMakeFiles/Circle2D.dir/DependInfo.cmake"
+  "CMakeFiles/11-8.dir/DependInfo.cmake"
+  "CMakeFiles/11-7.dir/DependInfo.cmake"
   )

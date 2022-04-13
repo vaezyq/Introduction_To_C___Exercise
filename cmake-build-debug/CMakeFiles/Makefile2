@@ -73,10 +73,9 @@ CMAKE_BINARY_DIR = /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-buil
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/10-10.dir/all
-all: CMakeFiles/MyInteger.dir/all
-all: CMakeFiles/Loan.dir/all
-all: CMakeFiles/10-12.dir/all
+all: CMakeFiles/Circle2D.dir/all
+all: CMakeFiles/11-8.dir/all
+all: CMakeFiles/11-7.dir/all
 
 .PHONY : all
 
@@ -86,120 +85,92 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/10-10.dir/clean
-clean: CMakeFiles/MyInteger.dir/clean
-clean: CMakeFiles/Loan.dir/clean
-clean: CMakeFiles/10-12.dir/clean
+clean: CMakeFiles/Circle2D.dir/clean
+clean: CMakeFiles/11-8.dir/clean
+clean: CMakeFiles/11-7.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/10-10.dir
+# Target rules for target CMakeFiles/Circle2D.dir
 
 # All Build rule for target.
-CMakeFiles/10-10.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target 10-10"
-.PHONY : CMakeFiles/10-10.dir/all
+CMakeFiles/Circle2D.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Circle2D.dir/build.make CMakeFiles/Circle2D.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Circle2D.dir/build.make CMakeFiles/Circle2D.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target Circle2D"
+.PHONY : CMakeFiles/Circle2D.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/10-10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/10-10.dir/all
+CMakeFiles/Circle2D.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Circle2D.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/10-10.dir/rule
+.PHONY : CMakeFiles/Circle2D.dir/rule
 
 # Convenience name for target.
-10-10: CMakeFiles/10-10.dir/rule
+Circle2D: CMakeFiles/Circle2D.dir/rule
 
-.PHONY : 10-10
+.PHONY : Circle2D
 
 # clean rule for target.
-CMakeFiles/10-10.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-10.dir/build.make CMakeFiles/10-10.dir/clean
-.PHONY : CMakeFiles/10-10.dir/clean
+CMakeFiles/Circle2D.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Circle2D.dir/build.make CMakeFiles/Circle2D.dir/clean
+.PHONY : CMakeFiles/Circle2D.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MyInteger.dir
+# Target rules for target CMakeFiles/11-8.dir
 
 # All Build rule for target.
-CMakeFiles/MyInteger.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target MyInteger"
-.PHONY : CMakeFiles/MyInteger.dir/all
+CMakeFiles/11-8.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-8.dir/build.make CMakeFiles/11-8.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-8.dir/build.make CMakeFiles/11-8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target 11-8"
+.PHONY : CMakeFiles/11-8.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MyInteger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyInteger.dir/all
+CMakeFiles/11-8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/11-8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/MyInteger.dir/rule
+.PHONY : CMakeFiles/11-8.dir/rule
 
 # Convenience name for target.
-MyInteger: CMakeFiles/MyInteger.dir/rule
+11-8: CMakeFiles/11-8.dir/rule
 
-.PHONY : MyInteger
+.PHONY : 11-8
 
 # clean rule for target.
-CMakeFiles/MyInteger.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyInteger.dir/build.make CMakeFiles/MyInteger.dir/clean
-.PHONY : CMakeFiles/MyInteger.dir/clean
+CMakeFiles/11-8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-8.dir/build.make CMakeFiles/11-8.dir/clean
+.PHONY : CMakeFiles/11-8.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Loan.dir
+# Target rules for target CMakeFiles/11-7.dir
 
 # All Build rule for target.
-CMakeFiles/Loan.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target Loan"
-.PHONY : CMakeFiles/Loan.dir/all
+CMakeFiles/11-7.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target 11-7"
+.PHONY : CMakeFiles/11-7.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Loan.dir/rule: cmake_check_build_system
+CMakeFiles/11-7.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Loan.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/11-7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Loan.dir/rule
+.PHONY : CMakeFiles/11-7.dir/rule
 
 # Convenience name for target.
-Loan: CMakeFiles/Loan.dir/rule
+11-7: CMakeFiles/11-7.dir/rule
 
-.PHONY : Loan
-
-# clean rule for target.
-CMakeFiles/Loan.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Loan.dir/build.make CMakeFiles/Loan.dir/clean
-.PHONY : CMakeFiles/Loan.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/10-12.dir
-
-# All Build rule for target.
-CMakeFiles/10-12.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target 10-12"
-.PHONY : CMakeFiles/10-12.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/10-12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/10-12.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/10-12.dir/rule
-
-# Convenience name for target.
-10-12: CMakeFiles/10-12.dir/rule
-
-.PHONY : 10-12
+.PHONY : 11-7
 
 # clean rule for target.
-CMakeFiles/10-12.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10-12.dir/build.make CMakeFiles/10-12.dir/clean
-.PHONY : CMakeFiles/10-12.dir/clean
+CMakeFiles/11-7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11-7.dir/build.make CMakeFiles/11-7.dir/clean
+.PHONY : CMakeFiles/11-7.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
