@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(Introduction_To_C___Exercise)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 
 #add_executable(9-2 Chapter_9_Objects_and_Classes/9-2.cpp Chapter_9_Objects_and_Classes/Fan.cpp)
@@ -50,6 +50,19 @@ set(CMAKE_CXX_STANDARD 14)
 #
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=GBK")
 #add_executable(11-6 Chapter_11_Pointers/11-6.cpp)
-add_executable(11-7 Chapter_11_Pointers/11-7.cpp Chapter_9_Objects_and_Classes/Account.cpp)
-add_executable(11-8 Chapter_11_Pointers/11-8.cpp)
-add_executable(Circle2D Chapter_11_Pointers/Circle2D.cpp)
+#add_executable(11-7 Chapter_11_Pointers/11-7.cpp Chapter_9_Objects_and_Classes/Account.cpp)
+#add_executable(11-8 Chapter_11_Pointers/11-8.cpp Chapter_11_Pointers/Circle2D.cpp)
+#add_executable(Circle2D Chapter_11_Pointers/Circle2D.cpp)
+#add_executable(Rectangle2D Chapter_11_Pointers/Rectangle2D.cpp)
+#add_executable(11-16 Chapter_11_Pointers/11-16.cpp)
+#add_executable(MyString Chapter_11_Pointers/MyString.cpp Chapter_11_Pointers/11-15.cpp)
+#add_executable(11-15 Chapter_11_Pointers/11-15.cpp Chapter_11_Pointers/MyString.cpp)
+#add_executable(11-10 Chapter_11_Pointers/11-10.cpp)
+#add_executable(11-11 Chapter_11_Pointers/11-11.cpp Chapter_11_Pointers/Rectangle2D.cpp)
+
+#add_executable(MyDate Chapter_11_Pointers/MyDate.cpp Chapter_11_Pointers/11-12.cpp)
+#add_executable(11-12 Chapter_11_Pointers/11-12.cpp MyDate Chapter_11_Pointers/MyDate.cpp)
+add_executable(Course Chapter_11_Pointers/Course.cpp)
+add_executable(test Chapter_12_Templates/12-1.cpp)
+add_executable(12-2 Chapter_12_Templates/12-2.cpp)
+add_executable(17-1 Chapter_17_Recursion/17-1.cpp)

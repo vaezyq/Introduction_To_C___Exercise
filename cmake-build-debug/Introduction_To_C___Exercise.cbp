@@ -27,94 +27,6 @@
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Circle2D">
-				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Circle2D" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 Circle2D"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Circle2D/fast">
-				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Circle2D" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 Circle2D/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="11-8">
-				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/11-8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 11-8"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="11-8/fast">
-				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/11-8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 11-8/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
 				<Option type="4"/>
@@ -125,8 +37,8 @@
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="11-7">
-				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/11-7" prefix_auto="0" extension_auto="0"/>
+			<Target title="17-1">
+				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/17-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -141,14 +53,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 11-7"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 17-1"/>
 					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="11-7/fast">
-				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/11-7" prefix_auto="0" extension_auto="0"/>
+			<Target title="17-1/fast">
+				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/17-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -163,30 +75,159 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 11-7/fast"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 17-1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12-2">
+				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/12-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 12-2"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12-2/fast">
+				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/12-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 12-2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Course">
+				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Course" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 Course"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Course/fast">
+				<Option output="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Course" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/rh/devtoolset-9/root/usr/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 Course/fast"/>
 					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_11_Pointers/11-7.cpp">
-			<Option target="11-7"/>
+		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_11_Pointers/Course.cpp">
+			<Option target="Course"/>
 		</Unit>
-		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_11_Pointers/11-8.cpp">
-			<Option target="11-8"/>
+		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_11_Pointers/Course.h">
+			<Option target="Course"/>
 		</Unit>
-		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_11_Pointers/Circle2D.cpp">
-			<Option target="Circle2D"/>
+		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_12_Templates/12-1.cpp">
+			<Option target="test"/>
 		</Unit>
-		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_11_Pointers/Circle2D.h">
-			<Option target="Circle2D"/>
+		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_12_Templates/12-2.cpp">
+			<Option target="12-2"/>
 		</Unit>
-		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_9_Objects_and_Classes/Account.cpp">
-			<Option target="11-7"/>
-		</Unit>
-		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_9_Objects_and_Classes/Account.h">
-			<Option target="11-7"/>
+		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/Chapter_17_Recursion/17-1.cpp">
+			<Option target="17-1"/>
 		</Unit>
 		<Unit filename="/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
