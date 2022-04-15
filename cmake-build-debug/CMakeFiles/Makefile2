@@ -73,10 +73,18 @@ CMAKE_BINARY_DIR = /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-buil
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/17-12.dir/all
+all: CMakeFiles/17-11.dir/all
+all: CMakeFiles/17-4.dir/all
+all: CMakeFiles/17-5.dir/all
 all: CMakeFiles/17-1.dir/all
-all: CMakeFiles/12-2.dir/all
-all: CMakeFiles/test.dir/all
-all: CMakeFiles/Course.dir/all
+all: CMakeFiles/17-2.dir/all
+all: CMakeFiles/17-3.dir/all
+all: CMakeFiles/17-6.dir/all
+all: CMakeFiles/17-9.dir/all
+all: CMakeFiles/17-7.dir/all
+all: CMakeFiles/17-10.dir/all
+all: CMakeFiles/17-8.dir/all
 
 .PHONY : all
 
@@ -86,12 +94,128 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/17-12.dir/clean
+clean: CMakeFiles/17-11.dir/clean
+clean: CMakeFiles/17-4.dir/clean
+clean: CMakeFiles/17-5.dir/clean
 clean: CMakeFiles/17-1.dir/clean
-clean: CMakeFiles/12-2.dir/clean
-clean: CMakeFiles/test.dir/clean
-clean: CMakeFiles/Course.dir/clean
+clean: CMakeFiles/17-2.dir/clean
+clean: CMakeFiles/17-3.dir/clean
+clean: CMakeFiles/17-6.dir/clean
+clean: CMakeFiles/17-9.dir/clean
+clean: CMakeFiles/17-7.dir/clean
+clean: CMakeFiles/17-10.dir/clean
+clean: CMakeFiles/17-8.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17-12.dir
+
+# All Build rule for target.
+CMakeFiles/17-12.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-12.dir/build.make CMakeFiles/17-12.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-12.dir/build.make CMakeFiles/17-12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 17-12"
+.PHONY : CMakeFiles/17-12.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17-12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/17-12.dir/rule
+
+# Convenience name for target.
+17-12: CMakeFiles/17-12.dir/rule
+
+.PHONY : 17-12
+
+# clean rule for target.
+CMakeFiles/17-12.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-12.dir/build.make CMakeFiles/17-12.dir/clean
+.PHONY : CMakeFiles/17-12.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17-11.dir
+
+# All Build rule for target.
+CMakeFiles/17-11.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-11.dir/build.make CMakeFiles/17-11.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-11.dir/build.make CMakeFiles/17-11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 17-11"
+.PHONY : CMakeFiles/17-11.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17-11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/17-11.dir/rule
+
+# Convenience name for target.
+17-11: CMakeFiles/17-11.dir/rule
+
+.PHONY : 17-11
+
+# clean rule for target.
+CMakeFiles/17-11.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-11.dir/build.make CMakeFiles/17-11.dir/clean
+.PHONY : CMakeFiles/17-11.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17-4.dir
+
+# All Build rule for target.
+CMakeFiles/17-4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-4.dir/build.make CMakeFiles/17-4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-4.dir/build.make CMakeFiles/17-4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 17-4"
+.PHONY : CMakeFiles/17-4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17-4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/17-4.dir/rule
+
+# Convenience name for target.
+17-4: CMakeFiles/17-4.dir/rule
+
+.PHONY : 17-4
+
+# clean rule for target.
+CMakeFiles/17-4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-4.dir/build.make CMakeFiles/17-4.dir/clean
+.PHONY : CMakeFiles/17-4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17-5.dir
+
+# All Build rule for target.
+CMakeFiles/17-5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-5.dir/build.make CMakeFiles/17-5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-5.dir/build.make CMakeFiles/17-5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 17-5"
+.PHONY : CMakeFiles/17-5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17-5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/17-5.dir/rule
+
+# Convenience name for target.
+17-5: CMakeFiles/17-5.dir/rule
+
+.PHONY : 17-5
+
+# clean rule for target.
+CMakeFiles/17-5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-5.dir/build.make CMakeFiles/17-5.dir/clean
+.PHONY : CMakeFiles/17-5.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/17-1.dir
@@ -100,7 +224,7 @@ clean: CMakeFiles/Course.dir/clean
 CMakeFiles/17-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-1.dir/build.make CMakeFiles/17-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-1.dir/build.make CMakeFiles/17-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 17-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 17-1"
 .PHONY : CMakeFiles/17-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,85 +245,193 @@ CMakeFiles/17-1.dir/clean:
 .PHONY : CMakeFiles/17-1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/12-2.dir
+# Target rules for target CMakeFiles/17-2.dir
 
 # All Build rule for target.
-CMakeFiles/12-2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12-2.dir/build.make CMakeFiles/12-2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12-2.dir/build.make CMakeFiles/12-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 12-2"
-.PHONY : CMakeFiles/12-2.dir/all
+CMakeFiles/17-2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-2.dir/build.make CMakeFiles/17-2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-2.dir/build.make CMakeFiles/17-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 17-2"
+.PHONY : CMakeFiles/17-2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/12-2.dir/rule: cmake_check_build_system
+CMakeFiles/17-2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/12-2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/12-2.dir/rule
+.PHONY : CMakeFiles/17-2.dir/rule
 
 # Convenience name for target.
-12-2: CMakeFiles/12-2.dir/rule
+17-2: CMakeFiles/17-2.dir/rule
 
-.PHONY : 12-2
+.PHONY : 17-2
 
 # clean rule for target.
-CMakeFiles/12-2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12-2.dir/build.make CMakeFiles/12-2.dir/clean
-.PHONY : CMakeFiles/12-2.dir/clean
+CMakeFiles/17-2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-2.dir/build.make CMakeFiles/17-2.dir/clean
+.PHONY : CMakeFiles/17-2.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test.dir
+# Target rules for target CMakeFiles/17-3.dir
 
 # All Build rule for target.
-CMakeFiles/test.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target test"
-.PHONY : CMakeFiles/test.dir/all
+CMakeFiles/17-3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-3.dir/build.make CMakeFiles/17-3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-3.dir/build.make CMakeFiles/17-3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 17-3"
+.PHONY : CMakeFiles/17-3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test.dir/rule: cmake_check_build_system
+CMakeFiles/17-3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/test.dir/rule
+.PHONY : CMakeFiles/17-3.dir/rule
 
 # Convenience name for target.
-test: CMakeFiles/test.dir/rule
+17-3: CMakeFiles/17-3.dir/rule
 
-.PHONY : test
+.PHONY : 17-3
 
 # clean rule for target.
-CMakeFiles/test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
-.PHONY : CMakeFiles/test.dir/clean
+CMakeFiles/17-3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-3.dir/build.make CMakeFiles/17-3.dir/clean
+.PHONY : CMakeFiles/17-3.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Course.dir
+# Target rules for target CMakeFiles/17-6.dir
 
 # All Build rule for target.
-CMakeFiles/Course.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Course"
-.PHONY : CMakeFiles/Course.dir/all
+CMakeFiles/17-6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-6.dir/build.make CMakeFiles/17-6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-6.dir/build.make CMakeFiles/17-6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 17-6"
+.PHONY : CMakeFiles/17-6.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Course.dir/rule: cmake_check_build_system
+CMakeFiles/17-6.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Course.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Course.dir/rule
+.PHONY : CMakeFiles/17-6.dir/rule
 
 # Convenience name for target.
-Course: CMakeFiles/Course.dir/rule
+17-6: CMakeFiles/17-6.dir/rule
 
-.PHONY : Course
+.PHONY : 17-6
 
 # clean rule for target.
-CMakeFiles/Course.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Course.dir/build.make CMakeFiles/Course.dir/clean
-.PHONY : CMakeFiles/Course.dir/clean
+CMakeFiles/17-6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-6.dir/build.make CMakeFiles/17-6.dir/clean
+.PHONY : CMakeFiles/17-6.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17-9.dir
+
+# All Build rule for target.
+CMakeFiles/17-9.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-9.dir/build.make CMakeFiles/17-9.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-9.dir/build.make CMakeFiles/17-9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target 17-9"
+.PHONY : CMakeFiles/17-9.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17-9.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/17-9.dir/rule
+
+# Convenience name for target.
+17-9: CMakeFiles/17-9.dir/rule
+
+.PHONY : 17-9
+
+# clean rule for target.
+CMakeFiles/17-9.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-9.dir/build.make CMakeFiles/17-9.dir/clean
+.PHONY : CMakeFiles/17-9.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17-7.dir
+
+# All Build rule for target.
+CMakeFiles/17-7.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-7.dir/build.make CMakeFiles/17-7.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-7.dir/build.make CMakeFiles/17-7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 17-7"
+.PHONY : CMakeFiles/17-7.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17-7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/17-7.dir/rule
+
+# Convenience name for target.
+17-7: CMakeFiles/17-7.dir/rule
+
+.PHONY : 17-7
+
+# clean rule for target.
+CMakeFiles/17-7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-7.dir/build.make CMakeFiles/17-7.dir/clean
+.PHONY : CMakeFiles/17-7.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17-10.dir
+
+# All Build rule for target.
+CMakeFiles/17-10.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-10.dir/build.make CMakeFiles/17-10.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-10.dir/build.make CMakeFiles/17-10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 17-10"
+.PHONY : CMakeFiles/17-10.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17-10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/17-10.dir/rule
+
+# Convenience name for target.
+17-10: CMakeFiles/17-10.dir/rule
+
+.PHONY : 17-10
+
+# clean rule for target.
+CMakeFiles/17-10.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-10.dir/build.make CMakeFiles/17-10.dir/clean
+.PHONY : CMakeFiles/17-10.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/17-8.dir
+
+# All Build rule for target.
+CMakeFiles/17-8.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-8.dir/build.make CMakeFiles/17-8.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-8.dir/build.make CMakeFiles/17-8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target 17-8"
+.PHONY : CMakeFiles/17-8.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/17-8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/17-8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /study+/c++/C++BeiYou/Introduction_To_C++_Exercise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/17-8.dir/rule
+
+# Convenience name for target.
+17-8: CMakeFiles/17-8.dir/rule
+
+.PHONY : 17-8
+
+# clean rule for target.
+CMakeFiles/17-8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17-8.dir/build.make CMakeFiles/17-8.dir/clean
+.PHONY : CMakeFiles/17-8.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
